@@ -1,6 +1,6 @@
-# Dash Proposal Generator
+# Stash Proposal Generator
 
-[![Build Status](https://travis-ci.org/dashevo/proposal-generator.svg?branch=master)](https://travis-ci.org/dashevo/proposal-generator)
+[![Build Status](https://travis-ci.org/stashevo/proposal-generator.svg?branch=master)](https://travis-ci.org/stashevo/proposal-generator)
 
 ## Get Started
 
