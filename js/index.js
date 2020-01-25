@@ -3,11 +3,11 @@ var Bitcore = require('bitcore-lib-dash');
 var socket;
 var paymentCycle;
 
-var mainnetProvider = 'https://insight.dashevo.org';
-var mainnetPrefix = '/insight-api-dash';
+var mainnetProvider = 'https://explorer.stashpay.io';
+var mainnetPrefix = '/insight-api';
 
-var testnetProvider = 'https://testnet-insight.dashevo.org';
-var testnetPrefix = '/insight-api-dash';
+var testnetProvider = 'http://127.0.0.1:2095';
+var testnetPrefix = '/insight-api';
 
 var init = function(network, provider, prefix) {
     var gov = new Bitcore.GovObject.Proposal();
