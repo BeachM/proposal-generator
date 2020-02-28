@@ -5,7 +5,21 @@
 }
 
 body {
+  /* generated from https://cssgradient.io/ */
+  background: rgb(9,10,30);
+  background: -moz-linear-gradient(93deg, rgba(9,10,30,1) 0%, rgba(16,17,41,1) 100%);
+  background: -webkit-linear-gradient(93deg, rgba(9,10,30,1) 0%, rgba(16,17,41,1) 100%);
+  background: linear-gradient(93deg, rgba(9,10,30,1) 0%, rgba(16,17,41,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#090a1e",endColorstr="#101129",GradientType=1);
+
+  /*
+    Background image credit: Aryan Dhiman
+    https://unsplash.com/photos/iGLLtLINSkw
+    https://unsplash.com/@mylifeasaryan_?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge
+  */
   background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;  
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -23,7 +37,7 @@ i.fa {
 }
 
 .header_title {
-  color: #1d71b8;
+  color: #fafafa;
   font-weight: 600;
   margin: 0;
 }
@@ -40,6 +54,10 @@ i.fa {
 
 .progress {
   margin-top: 10px;
+}
+
+.progress-bar {
+  background-color: #6a3fec;
 }
 
 .tab-content {
@@ -153,29 +171,29 @@ i.fa {
   display: inline-block;
   font-weight: 300;
   font-size: 1.3em;
-  background-color: #1c75bc;
+  background-color: #6a3fec;
   color: #fff;
-  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.08), 0px 4px 6px 0px rgba(49,49,93,0.13);
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.08), 0px 4px 6px 0px rgba(45,45,170,0.13);
   -webkit-transition: all .2s ease;
   transition: all .2s ease;
 }
 .nav>li.active>a:hover{
-  background-color: #1e7dc9;
+  background-color: #9169ea;
   transform: translateY(-1px);
-  box-shadow: 0 7px 14px rgba(50,50,93,0.1), 0 3px 6px rgba(0,0,0,0.08);
+  box-shadow: 0 7px 14px rgba(45,45,170,0.1), 0 3px 6px rgba(0,0,0,0.08);
 }
 .btn{
   font-weight: 300;
-  background-color: #1c75bc;
+  background-color: #6a3fec;
   color: #fff;
-  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.08), 0px 4px 6px 0px rgba(49,49,93,0.13);
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.08), 0px 4px 6px 0px rgba(45,45,170,0.13);
   -webkit-transition: all .2s ease;
   transition: all .2s ease;
   border: 0;
 }
 
 .btn:hover,.btn:active,.btn:focus{
-  background-color: #1e7dc9;
+  background-color: #9169ea !important;
   color: #fff !important;
 }
 
@@ -188,10 +206,10 @@ i.fa {
 }
 
 .btn-success:hover,.btn-success:active,.btn-success:focus{
-  background-color: #1e7dc9;
+  background-color: #9169ea;
   color: #fff !important;
   transform: translateY(-1px);
-  box-shadow: 0 7px 14px rgba(50,50,93,0.1), 0 3px 6px rgba(0,0,0,0.08);
+  box-shadow: 0 7px 14px rgba(45,45,170,0.1), 0 3px 6px rgba(0,0,0,0.08);
   border: 0;
 }
 
@@ -210,4 +228,24 @@ a:visited {
 a:hover {
   color: #3b9ce9;
   text-decoration: none;
+}
+
+.btn-primary.active, .nav-pills > li.active > a {
+  background-color: #2d18aa !important;
+}
+
+.header_description {
+  color: black;
+}
+
+#side_header_description {
+  color: #fafafa;
+}
+
+.octicon-mark-github {
+  fill: white;
+}
+
+#governance_tools {
+  color: white !important; 
 }
