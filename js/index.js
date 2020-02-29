@@ -6,8 +6,8 @@ var paymentCycle;
 var mainnetProvider = 'https://explorer.stashpay.io';
 var mainnetPrefix = '/insight-api';
 
-var testnetProvider = 'http://127.0.0.1:2095';
-var testnetPrefix = '/insight-api';
+var testnetProvider = 'http://testnet.stashpay.io';
+var testnetPrefix = '/api';
 
 var init = function(network, provider, prefix) {
     var gov = new Bitcore.GovObject.Proposal();
