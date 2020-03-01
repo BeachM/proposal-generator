@@ -6,7 +6,7 @@ var paymentCycle;
 var mainnetProvider = 'https://explorer.stashpay.io';
 var mainnetPrefix = '/insight-api';
 
-var testnetProvider = 'http://testnet.stashpay.io';
+var testnetProvider = 'https://testnet.stashpay.io';
 var testnetPrefix = '/api';
 
 var init = function(network, provider, prefix) {
