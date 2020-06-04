@@ -19,8 +19,9 @@
   },
   "homepage": "https://github.com/stashpayio/proposal-generator#readme",
   "devDependencies": {
-    "bitcore-lib-dash": "^0.15.0",
+    "@stashcore/stashcore-lib": "^0.18.0",
     "browserify": "^14.3.0",
     "eslint": "^4.8.0"
-  }
+  },
+  "dependencies": {}
 }

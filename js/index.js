@@ -1,4 +1,4 @@
-var Bitcore = require('bitcore-lib-dash');
+var Bitcore = require('@stashcore/stashcore-lib');
 
 var socket;
 var paymentCycle;
